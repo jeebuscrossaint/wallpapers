@@ -5,7 +5,7 @@ read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][e
 if [ $confirm = Y ]; then
     echo "Moving wallpapers."
     mkdir ~/wallpaper
-    cd wallpapers
+    cd wallpaper
     mv -v * ~/wallpaper
     cd ..
     echo "Done."
